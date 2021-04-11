@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/nav.css">
@@ -11,32 +12,77 @@
     <link rel="stylesheet" href="./css/formularioCelular.css">
     <title>Formulário Celular</title>
 </head>
+
 <body>
     <div class="cabecalho">
 
     </div>
 
     <div class="main">
-        <div class="Formulário">
-            <form>
-                <fieldset class = "grupo">
+        <div class="formulario">
+            <div class="card">
+                <fieldset class="grupo">
                     <h1> Conserto para Celulares </h1> <br>
-                    <div class= "campo">
-                     <label for = "Nome"><strong Nome
+                    <div class="campo">
+
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" placeholder="nome" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label><br>
+                        <input type="email" placeholder="seu@email.com" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="tel" placeholder="(DDD) xxxxxxxxx" name="telefone" id="telefone" required>
                     </div>
 
+                    <div>
+                        <label for="aparelho"> Selecione um Aparelho:</label><br>
+                        <select id="aparelhos" name="select">
+                            <option value="" selected disabled>Selecione </option>
+                            <option value="aparelho1">Iphone</option>
+                            <option value="aparelho2">Motorola</option>
+                            <option value="aparelho3">Xiaomi</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="problema">Selecione o tipo de problema: </label><br>
+                        <select id="problema" name="select">
+                            <option value="" selected disabled>Selecione </option>
+                            <option value="problema1">Tela quebrada</option>
+                            <option value="problema2">Touch</option>
+                            <option value="problema3">Não Carrega</option>
+                            <option value="problema4">Não liga</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label id="obs" for="observacao"> Especificação do problema:</label> <br>
+                        <textarea class="input-msg" placeholder="" id="observacao" cols="70" rows="10"
+                            required></textarea>
+                    </div>
 
-
-
+                    <button class="botao" type="submit"> Enviar</button>
                 </fieldset>
-
-
-            </form>
-
-
-
-
+            </div>
         </div>
+
+
+
+    </div>
+
+
+
+
+    </fieldset>
+
+
+    </form>
+
+
+
+
+    </div>
 
     </div>
 
@@ -44,4 +90,5 @@
 
     </div>
 </body>
+
 </html>
