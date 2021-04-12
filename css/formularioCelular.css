@@ -22,7 +22,6 @@ left: 30%;
 font-size: 20px;
 text-align: justify;
 color: white;
-
 }
 
 .main .formulario label{
@@ -53,6 +52,6 @@ color: white;
     text-align: center;
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.911);
-    color:rgb(13, 141, 1);
-   
+    color:rgb(13, 141, 1); 
+    
 }
