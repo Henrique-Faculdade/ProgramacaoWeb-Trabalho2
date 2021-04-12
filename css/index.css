@@ -1,0 +1,13 @@
+.main .message-main{
+    position: relative;
+    margin-top: 20px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main .message-main h1{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
