@@ -26,5 +26,6 @@ function validarOrcamento()
         alert("Problema não selecionado!");
         problema.focus();
     }
+    var brunalinda = "linda pakas";
 
 }
