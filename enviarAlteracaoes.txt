@@ -1,3 +1,5 @@
+Abra o terminal 
+
 git init
 
 git add .
