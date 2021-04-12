@@ -23,7 +23,7 @@ function validarOrcamento()
     }
     var problema = formulario.problema;
     if(problema.value==""){
-        alert("Problema não selecionado!");
+        alert("Problema não selecionadosd!");
         problema.focus();
     }
 
