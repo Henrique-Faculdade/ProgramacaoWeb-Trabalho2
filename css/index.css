@@ -1,13 +1,27 @@
-.main .message-main{
+.main .first-message{
     position: relative;
     margin-top: 20px;
-    height: 250px;
+    height: 200px;
     border: 1px solid;
     border-radius: 10px 10px 10px 10px;
 }
 
-.main .message-main h1{
+.main .first-message h1{
     position: relative;
-    top: 20%;
+    top: 22%;
+    text-align: center;
+}
+
+.main .second-message{
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main .second-message h1{
+    position: relative;
+    top: 22%;
     text-align: center;
 }

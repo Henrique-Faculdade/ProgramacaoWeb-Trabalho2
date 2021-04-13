@@ -1,7 +1,7 @@
 .footer{
     position: absolute;
     height: 100px;
-    border: 1px solid;
-    border-radius: 10px 10px 10px 10px;
     bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(white, rgba(23, 160, 18, 0.911));
 }
