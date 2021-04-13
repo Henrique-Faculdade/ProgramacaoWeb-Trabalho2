@@ -1,5 +1,6 @@
-function validarOrcamento()
+function validarFaleConosco()
 {
+
     if(typeof formulario.nome != "undefined"){
         var nome = formulario.nome;
         if (nome.value ==""){
@@ -21,28 +22,17 @@ function validarOrcamento()
             telefone.focus();
         }
     }
-    if(typeof formulario.aparelhos != "undefined"){
-        var aparelhos = formulario.aparelhos;
-        if(aparelhos.value ==""){
-            alert ("Aparelho não selecionado!");
-            aparelhos.focus();
-        }
-    }
-    
-    if(typeof formulario.problema != "undefined"){
-        var problema = formulario.problema;
-        if(problema.value==""){
-            alert("Problema não selecionado!");
-            problema.focus(); 
-        } 
-    }
-    
+   
     if(typeof formulario.observacao != "undefined"){
         var observacao = formulario.observacao;
         if(observacao.value==""){
-            alert("Observação não especificado!");
+            alert("Observação não inserida!");
             observacao.focus(); 
         } 
+    }
+
+    if(nome.value != "" && email.value != "" && telefone.value != "" && observacao.value != ""){
+        alert(nome.value + "\nRegistrado com sucesso tenks");
     }
     
 
