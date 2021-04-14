@@ -3,6 +3,7 @@
     text-align: center;
     height: 150px;
     color: white;
+    
 }
 
 .cabecalho a{
@@ -49,6 +50,11 @@ a:hover span:after {
 
 .cabecalho .button-orcamento{
     left: 10px;
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+
 }
 
 .cabecalho img{
@@ -56,7 +62,7 @@ a:hover span:after {
     right: 15%;
 }
 
-.cabecalho #nome-empresa{
+.cabecalho #nome-empresa{/*nome da empresa*/
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -65,9 +71,16 @@ a:hover span:after {
     right: 0;
     text-align: center;
     font-size: 50px;
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+    font-weight: bolder;
+
 }
 
-.cabecalho .button-contato{
+.cabecalho .button-contato{/*fale conosco*/
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
     right: 10px;
 }
 
