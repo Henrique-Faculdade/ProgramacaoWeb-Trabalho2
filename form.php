@@ -15,7 +15,7 @@
                 if($_POST['nome'] && $_POST['telefone'] && $_POST['email'] && $_POST['observacao']){
                     echo "<u>".$_POST['nome']."</u>  seus dados foram cadastrados com sucesso!";
                 }else{
-                    header('Location: faleConosco.php');
+                    header('Location: faleConosco.html');
                 }
             ?> 
         </h1>  
