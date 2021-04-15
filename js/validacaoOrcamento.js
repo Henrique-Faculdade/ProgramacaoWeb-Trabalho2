@@ -1,5 +1,8 @@
 function validarOrcamento()
 {
+
+    console.log("aqui");
+
     if(typeof formulario.nome != "undefined"){
         var nome = formulario.nome;
         if (nome.value ==""){

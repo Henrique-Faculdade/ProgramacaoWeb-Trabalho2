@@ -1,29 +1,56 @@
 .imagens{
     position: relative;
     margin-top: 7%;
-    height: 320px;
+    height: 410px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 10px 10px 10px 10px #7d7d7d;
+    /*border: 5px solid;*/
 }
+
 .imagens h1{
     position: relative;
-    margin-left: 310px;
+    margin-left: 300px;
     display: inline-block;
+    text-align: center;
+    Font-family: Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif;
+ 
 }
 .imagens img{
-    margin-left: 290px;
-    margin-right: 0;
+    padding: 5px;
+    margin-left: 273px;
+    margin-right: 22;
     margin-top: 15px
+    
 }
- #acessorio-1{
+ #acessorio-1 {
      display: inline-block;
-     position: relative;
+     position: relative;     
  }
  #acessorio-2{
     display: inline-block;
     position: relative;
 }
-#acessorio-3{
+ #acessorio-3{
     display: inline-block;
     position: relative;
+    
+}
+.imagens h1:hover{
+    background-color: transparent;
+}
+.imagens .botao-comprar{
+    text-align: center;
+    font-family: "Roboto", Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    right: 10px;
+}
+.botao-comprar:hover{
+    border-color: green;
+}
+#message{
+    text-align: center;
+    font-size: 30px;
+
 }

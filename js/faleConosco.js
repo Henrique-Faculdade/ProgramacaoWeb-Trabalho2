@@ -32,7 +32,7 @@ function validarFaleConosco()
     }
 
     if(nome.value != "" && email.value != "" && telefone.value != "" && observacao.value != ""){
-        alert(nome.value + "\nRegistrado com sucesso tenks");
+        alert(nome.value + "\n Mensagem enviada com sucesso!");
     }
     
 

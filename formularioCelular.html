@@ -27,8 +27,8 @@
             <div class="card">
                 <fieldset class="grupo">
                     <h1> Orçamento de conserto Celular </h1> <br>
-                    <form action="" method="POST" id="formulario" name="formulario">
-                        <br>
+                    <form action="form.php" method="POST" id="formulario" name="formulario">
+                        <input type="text" name="id" id="id" value="200" hidden>
                         <div class="campo">   
                             <label for="nome">Nome:</label><br>
                             <input type="text" placeholder="nome" name="nome" id="nome"/>
@@ -62,9 +62,8 @@
                             </select>
                         </div>
                         <div>
-                            <label id="obs" for="observacao"> Especificação do problema:</label> <br>
-                            <textarea class="input-msg" placeholder="" id="observacao" cols="70" rows="10"
-                                ></textarea>
+                            <label id="observacao" for="observacao"> Especificação do problema:</label> <br>
+                            <textarea class="input-msg" placeholder="" id="observacao" name="observacao" cols="70" rows="10"></textarea>
                         </div>
                         <div>
                             <button class="botao" type="submit" onclick="validarOrcamento()"> Enviar</button>

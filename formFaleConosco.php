@@ -14,19 +14,11 @@
         <h1> 
         <img src="img/confirmar.png"height="200">
             <?php 
-                if($_POST['nome'] && $_POST['telefone'] && $_POST['email']){
-                    echo "<u>".$_POST['nome'].",</u>  Orçamento enviado com sucesso!" ;
+                if($_POST['nome'] && $_POST['telefone'] && $_POST['email'] && $_POST['observacao']){
+                    echo "<u>".$_POST['nome']."</u>  seus dados foram cadastrados com sucesso!" ;
                    
                 }else{
-                    if($_POST['id'] == "100"){
-                        header('Location: formularioNote.html');
-                    }
-                    if($_POST['id'] == "200"){
-                        header('Location: formularioCelular.html');
-                    }
-                    if($_POST['id'] == "300"){
-                        header('Location: formularioComputador.html');
-                    }  
+                    header('Location: faleConosco.html');
                 }
             ?> 
         </h1>  

@@ -27,7 +27,8 @@
             <div class="card">
                 <fieldset class="grupo">
                     <h1> Orçamento de conserto Notebook </h1> <br>
-                    <form action="" method="POST" id="formulario" name="formulario"></form> <br>
+                    <form action="form.php" method="POST" id="formulario" name="formulario">
+                        <input type="text" name="id" id="id" value="100" hidden>
                         <div class="campo">   
                             <label for="nome">Nome:</label><br>
                             <input type="text" placeholder="nome" name="nome" id="nome"/>
@@ -43,7 +44,7 @@
 
                         <div>
                             <label for="aparelhos"> Selecione um Aparelho:</label><br>
-                            <select id="aparelhos" name="select">
+                            <select id="aparelhos" name="aparelhos">
                                 <option value="" selected disabled>Selecione </option>
                                 <option value="aparelho1">Asus</option>
                                 <option value="aparelho2">Acer</option>
@@ -53,7 +54,7 @@
                         </div>
                         <div>
                             <label for="problema">Selecione o tipo de problema: </label><br>
-                            <select id="problema" name="select">
+                            <select id="problema" name="tipoproblema">
                                 <option value="" selected disabled>Selecione </option>
                                 <option value="problema1">Tela quebrada</option>
                                 <option value="problema2">Não Carrega</option>
@@ -62,7 +63,7 @@
                         </div>
                         <div>
                             <label id="obs" for="observacao"> Especificação do problema:</label> <br>
-                            <textarea class="input-msg" placeholder="" id="observacao" cols="70" rows="10"
+                            <textarea class="input-msg" placeholder="" name="observacao" id="observacao" cols="70" rows="10"
                                 ></textarea>
                         </div>
                         <div>
